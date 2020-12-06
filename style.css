@@ -1,0 +1,68 @@
+body {
+	margin: 20px;
+	font-size: 18px;
+}
+
+h1,h2,h3 { 
+	font-family: 'Merriweather', serif;
+	color: #404042;
+}
+.Banner {
+	background-image: url(E:/Marina/LeWagon/images/persona-computadoraa.jpg); 
+	background-size: cover;
+	background-position: center;
+	padding: 120px;
+	text-align: center;
+}
+.Banner h1 {
+	color: white;
+	font-size: 40px;
+	margin: 30px;
+}
+.Banner h2 {
+	color: #dcdcdc;
+	font-size: 25px;
+	margin: 30px;
+	opacity: 0,7;
+}
+.button {
+	background-color: #3169da;
+	padding: 15px 60px;
+	display: inline-block;
+	transition: 2s;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+	border: none;
+}
+.button:hover {
+	background-color: #8fabe2;
+	color: white;
+}
+p {
+	font-size: 25px;
+}
+.container{
+	width: 900px;
+	margin: 60px;
+}
+.Cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+}
+.Card-white {
+	background-color: white;
+	box-shadow: 0 0 10px rgb (0,0,0,0.1);
+	border-radius: 4px;
+	padding: 24px;
+	margin: 8px;
+	flex-grow: 1; 
+}
+.Footer {
+	background-color: #484848;
+	color: white;
+	padding: 20px 30px;
+
+}
